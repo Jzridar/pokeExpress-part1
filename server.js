@@ -20,7 +20,7 @@ app.get('/pokemon/', (req, res)=> {
   });
 
   app.get('/pokemon/:id',(req,res)=>{
-    res.render('show',{pokemon:pokemon[req.params.id]})
+    res.render('Show',{pokemon:pokemon[req.params.id]})
   })
 // Tell the app to listen on port 3000
 // for HTTP requests from clients
